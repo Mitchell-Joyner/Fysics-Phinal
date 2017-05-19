@@ -8,9 +8,16 @@ const terminal = readline.createInterface({
     output:process.stdout
 });
 
-terminal.question("What type of equation are you looking for?",function(str){
-
-    //you will configure your series of questions inside here.
-
+terminal.question("What type of equation are you looking for? (Motion or Energy)",function(str){
+    if(str == "motion"){
+        terminal.question("What variable are you solving for? (D,V,A,T)"),function(str){
+            if(str == "distance"){
+                terminal.question("What are your known variables?"),function(array){
+                    printOptions();
+                    if()
+                }
+            }
+        }
+    }
 
 });
