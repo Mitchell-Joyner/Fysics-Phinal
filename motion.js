@@ -14,8 +14,8 @@ exports.time = function(){
   return d/v;
 };
 exports.distance2 = function(v,a,t){
-    return ((a*t*t)+(v*t))/2;
+  return ((a*t*t)+(v*t))/2;
 }
 exports.velocity2 = function(v,a,t){
-    return v+a*t;
+  return v+a*t;
 }
